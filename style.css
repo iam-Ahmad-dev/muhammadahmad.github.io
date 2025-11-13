@@ -104,24 +104,6 @@ section {
   text-decoration: underline;
 }
 
-.cert-card2 {
-  background: #fff;
-  max-width: 500px;
-  margin: 1rem auto;
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.cert-card2 a {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.cert-card2 a:hover {
-  text-decoration: underline;
-}
 
 /* Contact */
 .btn {
