@@ -1,4 +1,4 @@
-/* RESET */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 
-/* GLOBAL */
+/* Global */
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f8f9fa;
@@ -14,14 +14,7 @@ body {
   line-height: 1.6;
 }
 
-section {
-  padding: 3rem 1rem;
-  text-align: center;
-  max-width: 1000px;
-  margin: auto;
-}
-
-/* NAVIGATION */
+/* Navigation */
 nav {
   display: flex;
   justify-content: space-between;
@@ -50,7 +43,7 @@ nav a:hover {
   color: #00bcd4;
 }
 
-/* HERO SECTION */
+/* Hero Section */
 .hero {
   text-align: center;
   padding: 4rem 1rem;
@@ -67,21 +60,17 @@ nav a:hover {
   margin-bottom: 1rem;
 }
 
-.hero h2 {
-  font-size: 2rem;
-}
-
 .hero h2 span {
   color: #ffd700;
 }
 
-.hero p {
-  font-size: 1rem;
-  max-width: 700px;
-  margin: auto;
+/* Sections */
+section {
+  padding: 3rem 1rem;
+  text-align: center;
 }
 
-/* SKILLS */
+/* Skills Section */
 #skills .skills-container {
   display: flex;
   flex-wrap: wrap;
@@ -93,18 +82,12 @@ nav a:hover {
 .skill {
   background: #32CD32;
   color: #fff;
-  padding: 0.6rem 1.2rem;
+  padding: 0.6rem 1rem;
   border-radius: 25px;
   font-size: 1rem;
-  white-space: nowrap;
 }
 
-/* CERTIFICATES */
-.cert1 img {
-  width: 100%;
-  height: auto;
-}
-
+/* Certificates */
 .cert1 {
   background: #fff;
   max-width: 920px;
@@ -114,7 +97,7 @@ nav a:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* CONTACT */
+/* Contact */
 .contact-item {
   margin-top: 1rem;
 }
@@ -133,7 +116,7 @@ nav a:hover {
   background: #0056b3;
 }
 
-/* FOOTER */
+/* Footer */
 footer {
   background: linear-gradient(to bottom right, #007bff, #00bcd4);
   color: #fff;
@@ -142,90 +125,4 @@ footer {
   margin-top: 2rem;
   font-size: 1rem;
   font-weight: 500;
-}
-
-/* ****************************
-   📱 FULL MOBILE RESPONSIVENESS
-   **************************** */
-@media (max-width: 768px) {
-
-  nav {
-    padding: 1rem;
-  }
-
-  nav ul {
-    gap: 1rem;
-  }
-
-  .hero {
-    padding: 3rem 1rem;
-  }
-
-  .profile-pic {
-    width: 40vw;
-    height: 40vw;
-    max-width: 150px;
-    max-height: 150px;
-  }
-
-  .hero h2 {
-    font-size: 1.6rem;
-  }
-
-  .hero p {
-    font-size: 0.95rem;
-  }
-
-  section {
-    padding: 2.5rem 1rem;
-  }
-
-  #about p {
-    font-size: 0.95rem;
-    padding: 0 10px;
-  }
-
-  .skill {
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
-  }
-
-  .btn {
-    padding: 0.7rem 1.3rem;
-    font-size: 0.9rem;
-  }
-
-  footer {
-    font-size: 0.85rem;
-  }
-}
-
-/* VERY SMALL SCREENS (Phones 360px) */
-@media (max-width: 480px) {
-
-  .hero h2 {
-    font-size: 1.4rem;
-  }
-
-  .hero p {
-    font-size: 0.85rem;
-  }
-
-  #skills .skills-container {
-    gap: 0.6rem;
-  }
-
-  .skill {
-    font-size: 0.85rem;
-    padding: 0.4rem 0.7rem;
-  }
-
-  #about p,
-  #contact p {
-    font-size: 0.85rem;
-  }
-
-  footer {
-    padding: 1rem;
-  }
 }
