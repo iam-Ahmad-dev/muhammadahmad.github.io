@@ -94,16 +94,6 @@ section {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.cert2 {
-  background: #fff;
-  max-width: 250px;
-  margin: 1rem auto;
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-
 /* Contact */
 .btn {
   display: inline-block;
